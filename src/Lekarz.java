@@ -21,7 +21,7 @@ public class Lekarz {
     public ArrayList<Pacjent> getLeczeniPacjeci() {
         return leczeniPacjeci;
     }
-    public void dodaj(Pacjent pacjent){
+    public void dodajPacjenta(Pacjent pacjent){
         leczeniPacjeci.add(pacjent);
     }
 }

@@ -10,8 +10,8 @@ public class Main {
         Pacjent grubas = new Pacjent("Arnold", "Boczek");
         Pacjent menda = new Pacjent("Marian", "Paździoch");
 
-        halina.dodaj(ferdek);
-        grazynka.dodaj(menda);
+        halina.dodajPacjenta(ferdek);
+        grazynka.dodajPacjenta(menda);
 
         System.out.println(ferdek);
     }
